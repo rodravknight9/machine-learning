@@ -1,0 +1,53 @@
+# MkDocs — Data Science and Artificial Intelligence (machine-learning)
+# Run from this folder: mkdocs serve
+# Build: mkdocs build
+
+site_name: Data Science and Artificial Intelligence
+site_description: Introduction to Data Science and Machine Learning — course materials and concept docs
+site_url: https://example.com
+
+# LaTeX math: Arithmatex converts $...$ and $$...$$ to \( \) and \[ \]; MathJax 3 renders them
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax_config.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+
+# Use Material theme (install with: pip install -r requirements_docs.txt)
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+# Doc sources in child dir (required by MkDocs: docs_dir must not be the config's directory)
+docs_dir: docs
+
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - How to run this docs site: documentation.md
+  - Data preprocessing and visualization:
+    - Class — Preprocessing & Visualization: data-visualization-prepocessing/class_data_preprocessing_and_visualization.md
+    - Techniques summary: data-visualization-prepocessing/techniques_summary.md
+  - Linear regression:
+    - Comparison (1D vs gradient descent): linear-regression/linear_regression_comparison.md

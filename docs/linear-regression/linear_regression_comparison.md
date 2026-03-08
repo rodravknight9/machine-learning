@@ -85,7 +85,7 @@ $R^2$ is the fraction of variance in $y$ explained by the model (0 to 1, higher 
 6. **Optional**  
    Plot data and the fitted line; report $R^2$.
 
-No loops over “iterations”; the solution is direct.
+No loops over "iterations"; the solution is direct.
 
 ---
 

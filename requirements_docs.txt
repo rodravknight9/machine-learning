@@ -1,0 +1,7 @@
+# MkDocs and Material theme for serving the documentation
+# Install: pip install -r requirements_docs.txt
+# From machine-learning folder: mkdocs serve
+# Build: mkdocs build
+mkdocs>=1.5.0,<2
+mkdocs-material>=9.0.0
+pymdown-extensions

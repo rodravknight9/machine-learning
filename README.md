@@ -8,6 +8,6 @@ It was also used to **dictate a university course** for the subject **Data Scien
 
 - **Machine learning fundamentals:** preprocessing, visualization, linear and logistic regression, and more.
 - **Notebooks and code** tied to classic resources (e.g. Hands-On Machine Learning) and custom datasets.
-- **Class materials** such as the [Data Preprocessing & Visualization class](machine-learning/data-visualization-prepocessing/CLASS_Data_Preprocessing_and_Visualization.md) and technique summaries.
+- **Class materials** such as the [Data Preprocessing & Visualization class](docs/data-visualization-prepocessing/class_data_preprocessing_and_visualization.md) and [techniques summary](docs/data-visualization-prepocessing/techniques_summary.md). To serve everything as a doc site, run `mkdocs serve` from this folder (see [docs/documentation.md](docs/documentation.md)).
 
 Explore the `machine-learning` folder to get started, and use the READMEs and markdown guides in each section to navigate the content.
